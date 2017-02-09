@@ -70,7 +70,7 @@
                 fixtureDef.filter.groupIndex = fixture[5];
                 fixtureDef.isSensor = fixture[6];
 
-                if(fixture[7] == "POLYGON")
+                if(fixture[7] === "POLYGON")
                 {                    
                     var p, polygons = fixture[8];
                     for(p=0; p<polygons.length; p++)
@@ -82,7 +82,7 @@
                         body.CreateFixture(fixtureDef);
                     }
                 }
-                else if(fixture[7] == "CIRCLE")
+                else if(fixture[7] === "CIRCLE")
                 {
                     var circleShape = new b2CircleShape(fixture[9]);                    
                     circleShape.SetLocalPosition(fixture[8]);
