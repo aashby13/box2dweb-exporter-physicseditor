@@ -15,7 +15,7 @@ Exported script is an ES6/2015 module
   > `const physicsData =  new PhysicsData(64);`
   >
   > `/* created your bodies - args: bodyName, world, bodyType, userData */`\
-  > `const brainBody = PhysicsData.createBody('brain',`\
+  > `const brainBody = physicsData.createBody('brain',`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`world,`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`Box2D.Dynamics.b2Body.b2_dynamicBody,`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`{`\
