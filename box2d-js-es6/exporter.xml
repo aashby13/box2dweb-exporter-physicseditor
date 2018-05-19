@@ -1,16 +1,16 @@
 <exporter>
     
     <!-- identifier of the exporter -->
-	<name>box2d-js</name>
+	<name>box2d-js-es6</name>
 	
 	<!-- name for the dropbox -->
-    <displayName>Box2D Javascript</displayName>
+    <displayName>Box2D Javascript ES6</displayName>
 	
 	<!-- description of the exporter -->
-    <description>Box2D Javascript for box2dweb.js/box2d.js</description>
+    <description>Box2D Javascript as ES6 class/module for box2dweb.js/box2d.js</description>
 	
 	<!-- exporter version -->
-	<version>1.0</version>
+	<version>2.0</version>
 	
 	<!-- direction of the y axis: up / down -->
     <yAxisDirection>down</yAxisDirection>
