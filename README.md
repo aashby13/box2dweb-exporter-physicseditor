@@ -2,6 +2,8 @@
 Custom exporter for Box2DWeb and Box2DJS for use with PhysicsEditor from CodeAndWeb\
 Exported script is an ES6/2015 module
 
+*If you need an ES5 version, download version 1.0.2*
+
 ## Directions:
 + Set your custom exporter directory in your preferences for PE.
 + Place the folder named box2d-js-es6 in your custom exporter directory.
@@ -19,7 +21,7 @@ Exported script is an ES6/2015 module
   > &nbsp;&nbsp;&nbsp;&nbsp;`world,`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`Box2D.Dynamics.b2Body.b2_dynamicBody,`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`{`\
-  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sprite: b.bitmap,`\
+  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sprite: brainSprite,`\
   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`ratio: 64,`\
   > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`update: b => {...}`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`}`\
