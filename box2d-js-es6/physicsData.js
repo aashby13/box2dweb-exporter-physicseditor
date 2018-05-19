@@ -22,8 +22,8 @@ class PhysicsData {
                 '{{fixture.type}}',
         {% if fixture.isCircle %}
                 // center, radius
-                new b2Vec2({{ fixture.center.x | floatformat: 3 }} / this.ptm_ratio, {{ fixture.center.y | floatformat:3 }} / this.ptm_ratio),
-                {{ fixture.radius | floatformat: 3 }} / this.ptm_ratio
+                new b2Vec2({{ fixture.center.x|floatformat:3 }} / this.ptm_ratio, {{ fixture.center.y|floatformat:3 }} / this.ptm_ratio),
+                {{ fixture.radius|floatformat:3 }} / this.ptm_ratio
         {% else %}
                 // vertexes of decomposed polygons
                 [
