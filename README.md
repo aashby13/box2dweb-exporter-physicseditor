@@ -19,9 +19,9 @@ Exported script is an ES6/2015 module
   > &nbsp;&nbsp;&nbsp;&nbsp;`world,`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`Box2D.Dynamics.b2Body.b2_dynamicBody,`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`{`\
-  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sprite:b.bitmap,`\
-  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`ratio:64,`\
-  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`update:function(b){...}`\
+  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`sprite: b.bitmap,`\
+  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`ratio: 64,`\
+  > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`update: b => {...}`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`}`\
   > `);`
   
