@@ -89,5 +89,3 @@ export default class PhysicsData {
         return body;
     }
 }
-
-export default PhysicsData;
