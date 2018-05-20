@@ -1,3 +1,8 @@
+// ES2015 Module: https://www.npmjs.com/package/box2dweb-haircut
+import Box2D from 'box2dweb-haircut';
+// CommonJS Module: https://www.npmjs.com/package/box2dweb
+/* const Box2D = require('box2dweb'); */
+
 // the physcis data 
 const b2Vec2 = Box2D.Common.Math.b2Vec2,
     b2BodyDef = Box2D.Dynamics.b2BodyDef,
@@ -6,10 +11,11 @@ const b2Vec2 = Box2D.Common.Math.b2Vec2,
     b2CircleShape = Box2D.Collision.Shapes.b2CircleShape,
     b2World = Box2D.Dynamics.b2World;
     
-class PhysicsData {
+export default class PhysicsData {
 
     constructor(ratio = {{ global.ptm_ratio }} ) {
-        this.ptm_ratio = ratio; // ptm ratio
+        // ptm ratio
+        this.ptm_ratio = ratio;
         this.dict = {};  
         {% for body in bodies %}
         this.dict["{{body.name}}"] = [
