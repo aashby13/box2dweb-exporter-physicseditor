@@ -17,13 +17,13 @@ https://www.npmjs.com/package/box2dweb
   > `import Box2D from 'box2dweb-haircut';`\
   > `import PhysicsData from 'PhysicsData';`
   >
-  > `/*`\
-  > &nbsp;&nbsp;&nbsp;&nbsp;`PE default ptm ratio is 32 and can be edited in the PE UI.`\
-  > &nbsp;&nbsp;&nbsp;&nbsp;`If you need to adjust the ptm ratio after publishing, plug the number into the constructor method`\
-  >`*/`\
+  > /*\
+  > &nbsp;&nbsp;&nbsp;&nbsp;PE default ptm ratio is 32 and can be edited in the PE UI.\
+  > &nbsp;&nbsp;&nbsp;&nbsp;If you need to adjust the ptm ratio after publishing, plug the number into the constructor\
+  >*/\
   > `const physicsData =  new PhysicsData(64);`
   >
-  > `/* created your bodies - args: bodyName, world, bodyType, userData */`\
+  > /* created your bodies - args: bodyName, world, bodyType, userData */\
   > `const brainBody = physicsData.createBody('brain',`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`world,`\
   > &nbsp;&nbsp;&nbsp;&nbsp;`Box2D.Dynamics.b2Body.b2_dynamicBody,`\
